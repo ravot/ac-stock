@@ -1,0 +1,19 @@
+{
+  "name": "crawlers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "inStockTests.js",
+  "scripts": {
+    "ac-stock": "testcafe 'chrome:headless' ./tests/inStockTests.js --skip-js-errors",
+    "ac-stock-https": "node httpsTestInterval.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "openssl-self-signed-certificate": "^1.1.6",
+    "testcafe": "^1.8.6"
+  },
+  "dependencies": {
+    "nodemailer": "^6.4.8"
+  }
+}
